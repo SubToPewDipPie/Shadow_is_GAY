@@ -1,0 +1,40 @@
+Project:
+1. Make a landing page that can send user where they want to go
+2. Make a website that combine:
+    1. Music player
+        1. Can input music url/file and play them
+        2. Some already loaded music
+        3. Music manager:
+            1. Play
+            2. Stop
+            3. Skip
+            3. Go back
+            4. Change volume
+    2. Quiz app
+        1. Can choose between different quiz
+        2. play a quiz
+            1. Display a question with linked question
+            2. Can click on answer
+            3. Display correct answer immediatly or wait the end
+            4. Show score
+        3. Create a custom quiz
+        4. Edit a custom quiz
+        5. Delete a custom quiz
+    3. Survey 
+        1. Can create a survey
+        2. Can edit a survey
+        3. Can delete a survey
+        4. Can stop a survey 
+        5. Show result once we voted
+    4. Password generator and manager
+       1.generate a Password/username
+       2.show a Password for the webiste 
+       3.show email for the webiste 
+       4.show username for the webiste
+    5. Portfolio
+        1. Can add/edit/delete image
+        2. Can add/edit/delete text
+        3. Can add/edit/delete link
+        4. Can add/edit/delete sound
+3. Test if everything works at each steps
+4. Enjoy
