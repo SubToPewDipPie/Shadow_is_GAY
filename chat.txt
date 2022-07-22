@@ -20,9 +20,18 @@ xD
 
 
 
+hey :p
+so now, when we edit and save code, we put it on the repo online, and we can both get the same code :p nice 
+we don't need to be always in a live share session if we want to edit it
+so if one day you want to edit it
+edit what you want, go on github desktop and:
+add a meaning title (like what did you want to edit)
+and in the descript, add what you did in details
+then click commit
+then puch origin
+so i can get the code later :p nice 
 
+wanna start? YEP lol
 
-Do you have a github account? yes 
-Do you know how to create a repository? Well no i never used github just for install some stuff xD 
-DO you want me to host the code with git repo? sure if u want how does it work?
-Ok, so search in google "github desktop" and download it, i'll send screen via discord if needed k
+so we'll start by doing a basic landing html page, like btw can u go to dis?
+title, main title etc
