@@ -1,0 +1,12 @@
+{
+    "list": [
+        {
+            "password": "pass",
+            "username": "user",
+            "email": "user@fake.mail",
+            "url": "https://fake.web",
+            "phone": "0000000000",
+            "country": "+00"
+        }
+    ]
+}

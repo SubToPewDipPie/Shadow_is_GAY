@@ -1,25 +1,4 @@
-/* it's a color palette */
-.dark {
-    color: #182825;
-}
-
-.blue {
-    color: #5C9EAD;
-}
-
-.white {
-    color: #6247AA;
-}
-
-.purple {
-    color: #6247AA;
-}
-
-.red {
-    color: #C1292E;
-}
-
-/* another one */
+/** 1 */
 .space_cadet {
     color: #22223B;
 }
