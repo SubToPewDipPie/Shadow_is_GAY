@@ -51,25 +51,21 @@ body {
 
 a:link {
     color: inherit;
-    background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
     color: inherit;
-    background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
     color: inherit;
-    background-color: transparent;
     text-decoration: none;
 }
 
 a:active {
     color: inherit;
-    background-color: transparent;
     text-decoration: none;
 }
 
@@ -140,17 +136,53 @@ section {
 
 .appDesc {
     padding-top: 120px;
-    text-align: center;
 }
+
 .appLaunch {
+    width: 100px;
     padding: 30px;
     line-height: 30px;
     border-radius: 30px;
     transition: background .5s ease-in-out;
+    align-items: center;
+    /* display: flex; */
+    gap: 10px;
 }
 
 .appLaunch:hover {
-    background: #4A4E69;
+    background-color: #4A4E69;
     cursor: pointer;
     transition: background .5s ease-in-out;
+}
+
+.appName {
+    display: inline-block;
+}
+
+.appIcon {
+    display: inline-block;
+    background-size: contain;
+    padding: 30px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+#musicIcon {
+    background-image: url(../images/musical-notes.png);
+}
+
+#passwordIcon {
+    background-image: url(../images/password.png);
+}
+
+#quizIcon {
+    background-image: url(../images/checklist.png);
+}
+
+#surveyIcon {
+    background-image: url(../images/survey.png);
+}
+
+#portfolioIcon {
+    background-image: url(../images/folder-invoices.png);
 }
