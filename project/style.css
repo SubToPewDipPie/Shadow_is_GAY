@@ -71,9 +71,13 @@ a:active {
 
 #appWebsite {
     padding-top: 80px;
+    background-image: url(../images/pixel-rain.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #F2E9E4 !important;
 }
 
-#appWebsite,
 #appPassword,
 #appQuiz {
     background-color: #F2E9E4;
