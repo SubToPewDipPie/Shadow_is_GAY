@@ -36,5 +36,6 @@ Project:
         2. Can add/edit/delete text
         3. Can add/edit/delete link
         4. Can add/edit/delete sound
+        REMINDER: ortogonal design: https://css-tricks.com/hexagons-and-beyond-flexible-responsive-grid-patterns-sans-media-queries/
 3. Test if everything works at each steps
 4. Enjoy
