@@ -18,3 +18,11 @@
 .isabeline {
     color: #F2E9E4;
 }
+
+:root {
+    --space_cadet: #22223B;
+    --independance: #4A4E69;
+    --heliotrope_gray: #9A8C98;
+    --silver_pink: #C9ADA7;
+    --isabeline: #F2E9E4;
+}
