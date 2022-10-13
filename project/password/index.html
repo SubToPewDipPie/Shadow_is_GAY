@@ -3,12 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Applications Website: Password</title> 
-    <meta charset="utf-8"> 
+    <title>Applications Website: Password</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="../../images/glyph.png" type="image/png">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../app-style-common.css">
     <script src="./script.js" type="text/javascript"></script>
+    <script src="./JS/display.js" type="text/javascript"></script>
+    <script src="./JS/manage.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -38,8 +41,18 @@
     </div>
     <div class="navPlaceHolder"></div>
 
+    <div id="loader" hidden>
+
+    </div>
+
     <div id="container">
         <!-- all data will be put here -->
+        <aside class="passList">
+            <ul></ul>
+        </aside>
+        <div class="passInfo">
+            <p>Test</p>
+        </div>
     </div>
 </body>
 
