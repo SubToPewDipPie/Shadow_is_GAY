@@ -45,13 +45,41 @@
 
     </div>
 
-    <div id="container">
+    <div class="classFlexStart">
         <!-- all data will be put here -->
-        <aside class="passList">
-            <ul></ul>
-        </aside>
+        <div class="passList">
+            <ul>
+                <li hidden class="TestItemList">
+                    <button class="passListObject classFlex" onclick="ManageManager.show(ID)">
+                        <img class="passWebIcon"
+                            src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://google.com&size=16">
+                        <p class="passName">google.com</p>
+                    </button>
+                </li>
+            </ul>
+            <button class="passButton add"></button>
+        </div>
+
         <div class="passInfo">
-            <p>Test</p>
+            <a class="passWebsite classFlex" href="https://youtube.com" target="_blank">
+                <img class="passWebIcon"
+                    src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://youtube.com&size=16">
+                <p class="passName">youtube.com</p>
+            </a>
+            <div class="passData">
+                <p class="passId">Identification: </p>
+                <div class="classFlex">
+                    <p class="password">Password:</p>
+                    <input class="passwordInput" type="password" inputmode="full-width-latin" autocomplete="off"
+                        value="password"></input>
+                </div>
+            </div>
+            <div class="passEdit">
+                <button class="passButton delete">Delete</button>
+                <button class="passButton edit">Edit</button>
+                <button class="passButton show">Show</button>
+                <button class="passButton copy">Copy</button>
+            </div>
         </div>
     </div>
 </body>

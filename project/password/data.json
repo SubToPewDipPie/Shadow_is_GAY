@@ -5,32 +5,28 @@
             "username": "user",
             "email": "user@fake.mail",
             "url": "https://youtube.com",
-            "phone": "0000000000",
-            "timestamp": "0"
+            "phone": "0000000000"
         },
         {
             "password": "pass",
             "username": "user",
             "email": "user@fake.mail",
             "url": "https://github.com",
-            "phone": "0000000000",
-            "timestamp": "0"
+            "phone": "0000000000"
         },
         {
             "password": "pass",
             "username": "user",
             "email": "user@fake.mail",
             "url": "https://discord.com",
-            "phone": "0000000000",
-            "timestamp": "0"
+            "phone": "0000000000"
         },
         {
             "password": "pass",
             "username": "user",
             "email": "user@fake.mail",
             "url": "https://google.com",
-            "phone": "0000000000",
-            "timestamp": "0"
+            "phone": "0000000000"
         }
     ]
 }

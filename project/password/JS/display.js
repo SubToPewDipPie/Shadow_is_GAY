@@ -58,8 +58,7 @@ DisplayManager.createPasswordList = function () {
          *  "username": string | null,
          *  "email": string | null,
          *  "phone": number,
-         *  "login": 0 | 1 | 2,
-         *  "timestamp": number
+         *  "login": 0 | 1 | 2
          * }} password 
          * @param {number} id 
          */
@@ -76,7 +75,7 @@ DisplayManager.error = function (file, error) {
 
 DisplayManager.createPasswordElement = function (name, url, id) {
     if (!DisplayManager.passList) return;
-    DisplayManager.passList.children[0].appendChild(DisplayManager.stringToHTML(`<li><button class="passListObject" onclick="ManageManager.show(${id})"><img class="passWebIcon"src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${url}&size=16"><p class="passName">${name}</p></button></li>`));
+    DisplayManager.passList.children[0].appendChild(DisplayManager.stringToHTML(`<li><button class="passListObject classFlex" onclick="DisplayManager.show(${id})"><img class="passWebIcon"src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${url}&size=16"><p class="passName">${name}</p></button></li>`));
 };
 
 DisplayManager.stringToHTML = function (string) {
@@ -86,4 +85,14 @@ DisplayManager.stringToHTML = function (string) {
     return temp.content.firstChild;
 };
 
+/**
+ * @param {number} timestamp 
+ */
 DisplayManager.timestampToDate = function (timestamp) { };
+
+/**
+ * @param {number} id 
+ */
+DisplayManager.show = function (id) {
+    console.log(DisplayManager.data.list[id]);
+};
