@@ -1,0 +1,36 @@
+{
+  "name": "shadow_is_gay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./project/index.html",
+  "scripts": {
+    "dev": "nw ./",
+    "prod": "nwbuild --mode build --zip false --platforms win32 win64 linux32 linux64 --buildDir build/ ./**",
+    "prodos": "nwbuild --mode build --platforms osx64 --buildDir build/ ./**"
+  },
+  "devDependencies": {
+    "nw": "0.62.1-sdk",
+    "nw-builder": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubToPewDipPie/Shadow_is_GAY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubToPewDipPie/Shadow_is_GAY/issues"
+  },
+  "homepage": "https://github.com/SubToPewDipPie/Shadow_is_GAY#readme",
+  "window": {
+    "title": "Porject",
+    "icon": "images/glyph.png",
+    "toolbar": false,
+    "width": 800,
+    "height": 400,
+    "min_width": 800,
+    "min_height": 400,
+    "position": "center",
+    "resizable": true
+  }
+}
