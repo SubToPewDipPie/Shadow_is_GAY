@@ -2,31 +2,23 @@
     "list": [
         {
             "password": "pass",
-            "username": "user",
-            "email": "user@fake.mail",
-            "url": "https://youtube.com",
-            "phone": "0000000000"
+            "identification": "user",
+            "url": "https://youtube.com"
         },
         {
             "password": "pass",
-            "username": "user",
-            "email": "user@fake.mail",
-            "url": "https://github.com",
-            "phone": "0000000000"
+            "identification": "user",
+            "url": "https://github.com"
         },
         {
             "password": "pass",
-            "username": "user",
-            "email": "user@fake.mail",
-            "url": "https://discord.com",
-            "phone": "0000000000"
+            "identification": "user",
+            "url": "https://discord.com"
         },
         {
             "password": "pass",
-            "username": "user",
-            "email": "user@fake.mail",
-            "url": "https://google.com",
-            "phone": "0000000000"
+            "identification": "user",
+            "url": "https://google.com"
         }
     ]
 }

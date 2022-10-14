@@ -95,7 +95,20 @@
 }
 
 .passId {
-    margin-bottom: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.idInput {
+    background: none;
+    border: none;
+    user-select: none;
+    border: none;
+}
+
+.idShow {
+    margin: 0;
+    margin-right: 5px;
 }
 
 .password {

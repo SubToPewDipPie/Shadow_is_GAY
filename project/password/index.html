@@ -41,16 +41,12 @@
     </div>
     <div class="navPlaceHolder"></div>
 
-    <div id="loader" hidden>
-
-    </div>
-
-    <div class="classFlexStart">
+    <div class="classFlexStart" id="main">
         <!-- all data will be put here -->
         <div class="passList">
             <ul>
-                <li hidden class="TestItemList">
-                    <button class="passListObject classFlex" onclick="ManageManager.show(ID)">
+                <li hidden class="TestItemList" id="ID">
+                    <button class="passListObject classFlex" onclick="ManageManager.info(ID)">
                         <img class="passWebIcon"
                             src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://google.com&size=16">
                         <p class="passName">google.com</p>
@@ -67,18 +63,21 @@
                 <p class="passName">youtube.com</p>
             </a>
             <div class="passData">
-                <p class="passId">Identification: </p>
+                <div class="classFlex">
+                    <p class="passId">Identification: </p>
+                    <input class="idInput" type="text" value="TheYoutubeID" hidden>
+                    <p class="idShow">TheYoutubeID</p>
+                </div>
                 <div class="classFlex">
                     <p class="password">Password:</p>
-                    <input class="passwordInput" type="password" inputmode="full-width-latin" autocomplete="off"
-                        value="password"></input>
+                    <input class="passwordInput" type="password" value="password">
                 </div>
             </div>
             <div class="passEdit">
-                <button class="passButton delete">Delete</button>
-                <button class="passButton edit">Edit</button>
-                <button class="passButton show">Show</button>
-                <button class="passButton copy">Copy</button>
+                <button class="passButton delete" onclick="ManageManager.delete('ID')">Delete</button>
+                <button class="passButton edit" onclick="ManageManager.edit('ID')">Edit</button>
+                <button class="passButton copy" onclick="ManageManager.copy()">Copy</button>
+                <button class="passButton show" onclick="DisplayManager.show()">Show</button>
             </div>
         </div>
     </div>
